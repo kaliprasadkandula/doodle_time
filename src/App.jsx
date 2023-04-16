@@ -2,7 +2,7 @@
 import Header from './components/My_components'
 //pages
 import Home from './pages/Home';
-import Drawing from './pages/Drawings';
+import Sketchpad from './pages/Drawings';
 // import { createContext, useContext } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
@@ -11,7 +11,7 @@ function App() {
     <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/drawings" element={<Drawing />} />
+          <Route path="/drawings" element={<Sketchpad />} />
         </Routes>
       </Router>
   );
